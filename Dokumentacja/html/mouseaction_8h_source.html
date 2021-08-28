@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Bluetooth touchpad: Plik źródłowy D:/studia/SEM_6/NiskiPoziom/blutacz/mouseaction.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Bluetooth touchpad
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_30407a0d2b54e77e413db9d5d8b98067.html">studia</a></li><li class="navelem"><a class="el" href="dir_66273f7df24e0c6d24a60d11ebe952a4.html">SEM_6</a></li><li class="navelem"><a class="el" href="dir_bbdc1f8cd46657fd2722f1f0585462f6.html">NiskiPoziom</a></li><li class="navelem"><a class="el" href="dir_e5cbe32ee6716e7047481b8a5e1a5c45.html">blutacz</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">mouseaction.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="mouseaction_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef MOUSEACTION_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define MOUSEACTION_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;windows.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QStringList&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;QObject&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="server_8h.html">server.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">class </span><a class="code" href="class_server.html">Server</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_mouse_action.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_mouse_action.html">MouseAction</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="class_mouse_action.html#aa4307dc309263a4ea36da1bb6c4be89a">MouseAction</a>(<a class="code" href="class_server.html">Server</a> *server);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="class_mouse_action.html#ac22a398406c2809c4e38e4dc0937e32d">~MouseAction</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="class_mouse_action.html#a42411d10860c1745ae7a1155d18f11a0">getMessage</a>(QString &amp;message);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">short</span> touchPoint[2]={0,0};</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> gotoxy(<span class="keyword">const</span> <span class="keywordtype">short</span> x, <span class="keyword">const</span> <span class="keywordtype">short</span> y);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    POINT currentPosition();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> leftClick();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> leftPress();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> leftRelease();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> rightClick();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">void</span> middleClick();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">void</span> moveMouse(<span class="keyword">const</span> <span class="keywordtype">short</span> x, <span class="keyword">const</span> <span class="keywordtype">short</span> y);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">void</span> connectToSlot();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="class_server.html">Server</a> *server = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;};</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MOUSEACTION_H</span></div>
+<div class="ttc" id="aclass_mouse_action_html"><div class="ttname"><a href="class_mouse_action.html">MouseAction</a></div><div class="ttdoc">The MouseAction class Klasa odpowiedzialna za wykonywanie akcji związanych z obsługą myszki.</div><div class="ttdef"><b>Definition:</b> mouseaction.h:16</div></div>
+<div class="ttc" id="aclass_mouse_action_html_a42411d10860c1745ae7a1155d18f11a0"><div class="ttname"><a href="class_mouse_action.html#a42411d10860c1745ae7a1155d18f11a0">MouseAction::getMessage</a></div><div class="ttdeci">void getMessage(QString &amp;message)</div><div class="ttdoc">getMessage Slot odbiera wiadomość i na podstawie jej zawartości decyduje jaką metodę wywołać</div><div class="ttdef"><b>Definition:</b> mouseaction.cpp:14</div></div>
+<div class="ttc" id="aclass_mouse_action_html_aa4307dc309263a4ea36da1bb6c4be89a"><div class="ttname"><a href="class_mouse_action.html#aa4307dc309263a4ea36da1bb6c4be89a">MouseAction::MouseAction</a></div><div class="ttdeci">MouseAction(Server *server)</div><div class="ttdoc">Konstruktor klasy MouseAction.</div><div class="ttdef"><b>Definition:</b> mouseaction.cpp:3</div></div>
+<div class="ttc" id="aclass_mouse_action_html_ac22a398406c2809c4e38e4dc0937e32d"><div class="ttname"><a href="class_mouse_action.html#ac22a398406c2809c4e38e4dc0937e32d">MouseAction::~MouseAction</a></div><div class="ttdeci">~MouseAction()</div><div class="ttdoc">Destruktor klasy MouseAction.</div><div class="ttdef"><b>Definition:</b> mouseaction.cpp:9</div></div>
+<div class="ttc" id="aclass_server_html"><div class="ttname"><a href="class_server.html">Server</a></div><div class="ttdoc">The Server class Klasa odpowiedzialna za działanie serwera bluetooth.</div><div class="ttdef"><b>Definition:</b> server.h:23</div></div>
+<div class="ttc" id="aserver_8h_html"><div class="ttname"><a href="server_8h.html">server.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<map id="Graficzna hierarchia klas" name="Graficzna hierarchia klas">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,76,57"/>
+<area shape="rect" id="node2" href="$class_mouse_action.html" title="The MouseAction class Klasa odpowiedzialna za wykonywanie akcji związanych z obsługą myszki." alt="" coords="124,5,223,32"/>
+<area shape="rect" id="node3" href="$class_server.html" title="The Server class Klasa odpowiedzialna za działanie serwera bluetooth." alt="" coords="144,56,203,83"/>
+</map>
